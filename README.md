@@ -37,7 +37,7 @@ If you use our code illegally, then we will actively collect evidence and initia
 
 ### Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fstar-horizon%2Fgfwboard-user)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAH-dark%2Fgfwboard-user)
 
 ### Static Hosting
 
@@ -47,4 +47,4 @@ If you use our code illegally, then we will actively collect evidence and initia
 
 ## License Scanning
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fstar-horizon%2Fgfwservice-frontend.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fstar-horizon%2Fgfwservice-frontend?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAH-dark%2Fgfwboard-user.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FAH-dark%2Fgfwboard-user?ref=badge_large)
