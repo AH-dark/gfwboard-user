@@ -101,7 +101,7 @@
     "stylis-plugin-rtl": "^2.1.1",
     "terser": "^5.16.1",
     "tss-react": "^4.5.2",
-    "ua-parser-js": "^1.0.32",
+    "ua-parser-js": "^1.0.33",
     "vite": "^4.0.4",
     "web-vitals": "^3.1.1",
     "yup": "^0.32.11"
