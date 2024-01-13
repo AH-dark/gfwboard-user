@@ -39,7 +39,7 @@
     "@reduxjs/toolkit": "^1.9.1",
     "ahooks": "^3.7.4",
     "apexcharts": "^3.36.3",
-    "axios": "^1.2.2",
+    "axios": "^1.6.0",
     "bfj": "^7.0.2",
     "browserslist": "^4.21.4",
     "buffer": "^6.0.3",
