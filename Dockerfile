@@ -1,31 +1,30 @@
-FROM node:lts-slim AS base
+FROM node:18-slim AS base
 
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
 
+WORKDIR /app
+
 FROM base AS deps
-WORKDIR ~/app
 
 # Install dependencies
 COPY package.json pnpm-lock.yaml ./
-RUN pnpm install --frozen-lockfile
+RUN pnpm install
 
 FROM base AS builder
-WORKDIR ~/app
 
 # Copy dependencies
-COPY --from=deps ~/app/node_modules ./node_modules
+COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
 # Build
 RUN pnpm run build
 
 FROM nginx:stable-alpine AS runner
-WORKDIR ~/app
 
 # Copy dist
-COPY --from=builder ~/app/dist /usr/share/nginx/html
+COPY --from=builder /app/dist /usr/share/nginx/html
 
 EXPOSE 80
 
